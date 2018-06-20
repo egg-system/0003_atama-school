@@ -1,0 +1,90 @@
+/*
+Template:arcade-basic
+Theme Name:arcade-basicchild
+Description:arcade-basicの子テーマです
+Author:EGG SYSTEM
+Version:1.0
+*/
+
+.btn_back{
+	background-image:url("http://atama-school.com/wp-content/uploads/2017/07/btn.gif");　
+	background-position: 0;
+	background-repeat: no-repeat;
+	width:300px; 
+	height:80px; 
+	margin:0 auto; 
+	text-align:center;
+	padding-top:20px;
+}
+.btn_back a{
+	font-size:1.8em; 
+	color:#ffffff;
+    display:block; 	
+}
+.btn_back a:hover{
+	filter:alpha(opacity=80);
+	opacity:0.8;
+	color:#ffffff;
+	text-decoration:none;
+}
+
+/* 投稿ページ装飾 */
+h1.blog_deco {font-weight:bold!important;}
+.blog_deco h2 {background-color:#deb887; padding:10px 0 10px 15px; border-radius:5px;}
+.blog_deco .single .entry-meta { border-bottom:solid 3px #666!important; padding-bottom:20px!important;}
+.topics { border:solid 1px #aaa;}
+.topics p { text-align: center;}
+.topics ul { list-style-type: none; list-style: none; padding-right:40px;}
+.topics ul li { text-align: left; border-top: 1px dotted #ddd;}
+
+.col-md-8 { width: 100%;}
+.basic h4 {font-family:Open Sans, sans-serif !important;}
+a:hover {filter:alpha(opacity=80); opacity:0.8;}
+
+/* TOPページ_ニュース */
+#news {
+  max-width: 1170px;
+  margin: 60px auto 0px;
+  padding: 20px 60px;
+  background-color:#ffffff;
+}
+#news p.tgNewsList {border-bottom: solid 1px #999; padding-bottom:5px;}
+#news p.tgNewsList span {margin-right: 20px;}
+#news h2{
+	text-align:center;
+	font-size:30px;
+	font-weight:600;
+	margin-bottom:20px;
+   color: #8f592d;
+}
+
+@media (max-width: 600px) {
+/* TOPページ_ニュース */
+#news {margin:0 auto; padding: 10px 20px;}
+#news p.tgNewsList {font-size:0.8em;}
+#news p.tgNewsList span {font-size:0.8em;}
+}
+
+@media (min-width: 768px) {
+/* TOPページ_ニュース */
+#news {max-width: 750px;}
+}
+
+@media (min-width: 992px) {
+/* TOPページ_ニュース */
+#news {max-width: 970px;}
+}
+
+@media (min-width: 1200px) {
+/* TOPページ_ニュース */
+#news {max-width: 1170px;}
+}
+
+div#news{
+	padding:1px 100px;
+}
+@media (max-width: 768px) {
+	div#news{
+		padding:1px 10px;
+	}
+}

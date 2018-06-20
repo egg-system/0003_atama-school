@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/* ------------------------------ 既存クラスの修正分 ------------------------------ */
+.container {
+    max-width: 1170px;
+	background: #fff;
+}
+.title-card {
+    z-index: 1;
+    width: 100%;
+    display: table;
+    text-align: left;
+}
+#site-title {
+    width: 60%;
+    text-align: left;
+}
+.secondPageTitle {
+	max-width: 700px;
+} 
+#site-meta i, #site-description, #more-site {
+    position: relative;
+    margin-left: 5%;
+}
+#more-site {
+    margin-top: 30px;
+    border: 1px solid #de4857;
+    color: #de4857;
+    font-weight: bold;
+    padding: 10px 25px;
+    display: none;
+    background: rgba(255, 255, 255, 0.18);
+    text-shadow: none;
+}
+#more-site:hover {
+    background: rgba(255, 255, 255, 0.5);
+    border-color: #de4857;
+    color: #de4857;
+}
+.alignnone {
+    margin: 0 0 7px 0;
+}
+#footer #footer-content {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #38312c;
+}
+
+
+
+
+/* ------------------------------ 全ページ適用　新規追加分 ------------------------------ */
+
+/* common */
+body {
+	background: url(../images/bg_pattern.png);
+	background-repeat: repeat;
+}
+/* common */
+h1.stitle {
+    background: url(../images/bg_stitle_1170.png);
+    background-size: 1140px 71px;
+    height: 71px;
+    padding: 25px 10px 0 80px;
+	color: #fff;
+	font-size: 25px!important;
+}
+
+/* --- @media (max-width: 600px)--- */
+@media (max-width: 600px){
+/* header */
+#site-title {
+    width: 85%!important;
+}
+}
+
+
